@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_Title</name>
+   <tag></tag>
+   <comment>heading</comment>
+   <testCaseGuid>a732f7ac-d24f-4a41-ac75-b9c55a1f2e9c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>446a21c7-aa00-4e04-8aff-0c3a698f4ce2</id>
+      <masked>false</masked>
+      <name>TestCaseID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>334a90d9-cc6a-4463-907e-8f0c9d5f5fe0</id>
+      <masked>false</masked>
+      <name>Run</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c1515a1-0181-47bc-8524-1013a9a6977f</id>
+      <masked>false</masked>
+      <name>Address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49ec0193-5d04-49a7-a5fc-a53abfb03e3a</id>
+      <masked>false</masked>
+      <name>ExcelSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45484851-f08a-4e7c-b76b-1164b0f85e15</id>
+      <masked>false</masked>
+      <name>variable_3</name>
+   </variable>
+</TestCaseEntity>

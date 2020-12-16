@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_04_titleVerification</name>
+   <tag></tag>
+   <comment>heading</comment>
+   <testCaseGuid>231908d7-fd2f-492e-bf8d-1ec92cc5dec5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>07f89aae-4f7b-425b-ad0a-5fc12432ca5a</id>
+      <masked>false</masked>
+      <name>TestCaseID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99a9ddd3-d5e8-47ad-bed0-74ea4cc6c4eb</id>
+      <masked>false</masked>
+      <name>Run</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>914d4712-4fa1-429e-96e5-19cd23483373</id>
+      <masked>false</masked>
+      <name>Address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f91bf0ad-1c14-4c3f-92e5-6c33b347d2ff</id>
+      <masked>false</masked>
+      <name>ExcelSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97882c9a-6ae8-4f37-8e31-3ea2ab544459</id>
+      <masked>false</masked>
+      <name>HeadingGenerated</name>
+   </variable>
+</TestCaseEntity>
