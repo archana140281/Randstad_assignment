@@ -15,29 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.openBrowser('')
-//WebUI.maximizeWindow()
-//Thread.sleep(1000)
-GlobalVariable.TestCaseID = TestCaseID
+//GlobalVariable.TestCaseID = TestCaseID
+//GlobalVariable.ExcelSheetName = ExcelSheetName
+'Navigate'
+WebUI.callTestCase(findTestCase('fnCommon/fn01_OpenBrowser_Navigate'), [('SiteURL') : GlobalVariable.SiteURL1], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.ExcelSheetName = ExcelSheetName
+'Amazon product'
+WebUI.callTestCase(findTestCase('fnCommon/fn02_Product_from_Amazon'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(Address)
-
-// WebUI.navigateToUrl(GlobalVariable.SiteURL1)
-
-//def url = WebUI.getUrl()
-//WebUI.comment(url)
-//CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'('Paynet', url , TestCaseID, 6)
-WebUI.delay(1)
-WebUI.waitForPageLoad(3)
-
-WebUI.waitForElementVisible(findTestObject('Page_iMoney/ver_heading'), 4)
-WebUI.delay(2)
-
-def heading = WebUI.getText(findTestObject('Page_iMoney/ver_heading'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment(heading)
-
-WebUI.callTestCase(findTestCase('fnCommon/fn_Verification'), [('sExpectedVal') :HeadingGenerated , ('sActualVal') :heading], FailureHandling.STOP_ON_FAILURE)
-
+'Navigate'
+WebUI.callTestCase(findTestCase('fnCommon/fn01_OpenBrowser_Navigate'), [('SiteURL') : GlobalVariable.SiteURL2], FailureHandling.STOP_ON_FAILURE)

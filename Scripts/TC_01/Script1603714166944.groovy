@@ -28,9 +28,9 @@ GlobalVariable.ExcelSheetName = ExcelSheetName
 
 
 
-WebUI.navigateToUrl(Address)
+// WebUI.navigateToUrl(Address)
 
-// WebUI.navigateToUrl(GlobalVariable.SiteURL)
+ WebUI.navigateToUrl(GlobalVariable.SiteURL1)
 
 WebUI.delay(2)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fn01_OpenBrowser_Navigate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20ae8c82-874a-4d84-ab22-a150b531643a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8d62bac-940c-45af-a187-326b60ed8121</id>
+      <masked>false</masked>
+      <name>SiteURL</name>
+   </variable>
+</TestCaseEntity>

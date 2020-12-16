@@ -6,8 +6,8 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.imoney.my/'</initValue>
-      <name>SiteURL</name>
+      <initValue>'https://www.amazon.com/'</initValue>
+      <name>SiteURL1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -23,5 +23,10 @@
       <description></description>
       <initValue>''</initValue>
       <name>ExcelSheetName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.ebay.com/'</initValue>
+      <name>SiteURL2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

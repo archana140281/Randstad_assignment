@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fn02_Product_from_Amazon</name>
+   <tag></tag>
+   <comment>Name of Website :- Amazon
+Name of the product for Amazon :- &quot; + sGetValue
+Price of the product for Amazon :- &quot; + sGetPrice
+Link for the product for Amazon :- &quot; + sGetLink</comment>
+   <testCaseGuid>d68bb48d-e536-44ed-83f0-996b4b0a6933</testCaseGuid>
+</TestCaseEntity>

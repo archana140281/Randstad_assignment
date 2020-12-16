@@ -26,7 +26,7 @@ GlobalVariable.ExcelSheetName = ExcelSheetName
 
 WebUI.navigateToUrl(Address)
 
-// WebUI.navigateToUrl(GlobalVariable.SiteURL)
+// WebUI.navigateToUrl(GlobalVariable.SiteURL1)
 Thread.sleep(1000)
 
 //def url = WebUI.getUrl()

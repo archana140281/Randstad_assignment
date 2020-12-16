@@ -16,18 +16,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.imoney.my/credit-card/affinbank/touch-n-go-gold')
-
-// WebUI.navigateToUrl(GlobalVariable.SiteURL)
-Thread.sleep(1000)
-
-//def url = WebUI.getUrl()
-//WebUI.comment(url)
-//CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'('Paynet', url , TestCaseID, 6)
 
 
-def heading = WebUI.getText(findTestObject('Page_iMoney/ver_heading'), FailureHandling.STOP_ON_FAILURE)
+'Search product'
+WebUI.setText(findTestObject('Page_Amazon/txt_Searchbox'), 'iphone 11')
+WebUI.click(findTestObject('Page_Amazon/btn_Searchicon'))
+WebUI.click(findTestObject('Page_Amazon/span_Apple iPhone11'))
 
-WebUI.comment(heading)
+'Get product name'
+sGetValue = WebUI.getText(findTestObject('Page_Amazon/txt_ProductTitle'))
+
+WebUI.comment('Name of Website :- Amazon')
+WebUI.comment('Name of the product for Amazon :- '  + sGetValue )
+
+println ('Name of Website :- Amazon')
+println ('Name of the product for Amazon :- '  + sGetValue)
+
+'Get price'
+sGetPrice = WebUI.getText(findTestObject('Page_Amazon/txt_Price'))
+WebUI.comment('Price of the product for Amazon :- '  + sGetPrice )
+println ('Price of the product for Amazon :- '  + sGetPrice )
+
+'Get URL'
+sGetLink = WebUI.getUrl()
+WebUI.comment('Link for the product for Amazon :- '  + sGetLink )
+println ('Link for the product for Amazon :- '  + sGetLink)
+
+WebUI.closeBrowser()
