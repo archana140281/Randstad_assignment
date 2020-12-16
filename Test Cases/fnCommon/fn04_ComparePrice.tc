@@ -3,6 +3,7 @@
    <description></description>
    <name>fn04_ComparePrice</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Price of product at Amazon  :-&quot; + priceAmazon[1]
+Price of product at ebay :-&quot; + priceebay[1]</comment>
    <testCaseGuid>f197955c-527a-4a9c-8dc0-71740b4e66a9</testCaseGuid>
 </TestCaseEntity>

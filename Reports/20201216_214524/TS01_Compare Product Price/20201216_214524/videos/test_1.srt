@@ -1,0 +1,248 @@
+1
+00:00:00,121 --> 00:00:00,123
+3. Navigate to Amazon
+
+2
+00:00:00,526 --> 00:00:00,528
+1. openBrowser("")
+
+3
+00:00:04,505 --> 00:00:04,506
+5. maximizeWindow()
+
+4
+00:00:06,696 --> 00:00:06,697
+9. Thread.sleep(1000)
+
+5
+00:00:07,707 --> 00:00:07,707
+13. navigateToUrl(SiteURL)
+
+6
+00:00:17,717 --> 00:00:17,718
+17. Thread.sleep(1000)
+
+7
+00:00:18,727 --> 00:00:18,728
+9. Amazon product
+
+8
+00:00:18,954 --> 00:00:18,954
+3. Search product
+
+9
+00:00:21,096 --> 00:00:21,098
+7. click(findTestObject("Page_Amazon/btn_Searchicon"))
+
+10
+00:00:36,981 --> 00:00:36,982
+11. click(findTestObject("Page_Amazon/span_Apple iPhone11"))
+
+11
+00:00:41,326 --> 00:00:41,327
+17. Get product name
+
+12
+00:00:43,700 --> 00:00:43,700
+21. comment("Name of Website :- Amazon")
+
+13
+00:00:43,709 --> 00:00:43,711
+25. comment("Name of the product for Amazon :- " + sGetValue)
+
+14
+00:00:43,712 --> 00:00:43,713
+29. println("Name of Website :- Amazon")
+
+15
+00:00:43,715 --> 00:00:43,715
+33. println("Name of the product for Amazon :- " + sGetValue)
+
+16
+00:00:43,716 --> 00:00:43,716
+39. Get price
+
+17
+00:00:44,063 --> 00:00:44,064
+43. comment("Price of the product for Amazon :- " + sGetPrice)
+
+18
+00:00:44,066 --> 00:00:44,067
+47. println("Price of the product for Amazon :- " + sGetPrice)
+
+19
+00:00:44,068 --> 00:00:44,071
+51. Price_amazon = sGetPrice
+
+20
+00:00:44,072 --> 00:00:44,075
+57. Get URL
+
+21
+00:00:44,109 --> 00:00:44,110
+61. comment("Link for the product for Amazon :- " + sGetLink)
+
+22
+00:00:44,113 --> 00:00:44,114
+65. println("Link for the product for Amazon :- " + sGetLink)
+
+23
+00:00:44,114 --> 00:00:44,115
+69. closeBrowser()
+
+24
+00:00:44,877 --> 00:00:44,878
+15. Navigate to ebay
+
+25
+00:00:44,946 --> 00:00:44,946
+1. openBrowser("")
+
+26
+00:00:48,227 --> 00:00:48,227
+5. maximizeWindow()
+
+27
+00:00:50,401 --> 00:00:50,404
+9. Thread.sleep(1000)
+
+28
+00:00:51,413 --> 00:00:51,413
+13. navigateToUrl(SiteURL)
+
+29
+00:00:53,975 --> 00:00:53,976
+17. Thread.sleep(1000)
+
+30
+00:00:54,988 --> 00:00:54,989
+21. ebay product
+
+31
+00:00:55,328 --> 00:00:55,329
+3. Search product
+
+32
+00:00:56,060 --> 00:00:56,062
+7. click(findTestObject("Page_eBay/btn_Search_ebay"))
+
+33
+00:01:00,835 --> 00:01:00,837
+11. click(findTestObject("Page_eBay/link_product"))
+
+34
+00:01:03,660 --> 00:01:03,662
+17. Get product name
+
+35
+00:01:07,086 --> 00:01:07,086
+21. comment("Name of Website :- ebay")
+
+36
+00:01:07,088 --> 00:01:07,089
+25. comment("Name of the product for ebay :- " + sGetValue)
+
+37
+00:01:07,091 --> 00:01:07,092
+29. println("Name of Website :- ebay")
+
+38
+00:01:07,093 --> 00:01:07,094
+33. println("Name of the product for ebay :- " + sGetValue)
+
+39
+00:01:07,095 --> 00:01:07,096
+39. Get price
+
+40
+00:01:07,661 --> 00:01:07,662
+43. comment("Price of the product for ebay :- " + sGetPrice)
+
+41
+00:01:07,664 --> 00:01:07,665
+47. println("Price of the product for ebay :- " + sGetPrice)
+
+42
+00:01:07,666 --> 00:01:07,666
+51. Price_ebay = sGetPrice
+
+43
+00:01:07,667 --> 00:01:07,668
+57. Get URL
+
+44
+00:01:07,679 --> 00:01:07,680
+61. comment("Link for the product for ebay :- " + sGetLink)
+
+45
+00:01:07,684 --> 00:01:07,684
+65. println("Link for the product for ebay :- " + sGetLink)
+
+46
+00:01:07,685 --> 00:01:07,685
+69. closeBrowser()
+
+47
+00:01:08,447 --> 00:01:08,447
+27. Compare Price
+
+48
+00:01:08,686 --> 00:01:08,687
+1. priceAmazon = Price_amazon.split("\$")
+
+49
+00:01:08,688 --> 00:01:08,689
+5. priceebay = Price_ebay.split("\$")
+
+50
+00:01:08,689 --> 00:01:08,689
+9. comment("Price of product at Amazon  :-" + priceAmazon[1])
+
+51
+00:01:08,691 --> 00:01:08,692
+13. println(priceAmazon[1])
+
+52
+00:01:08,693 --> 00:01:08,693
+17. comment("Price of product at ebay :-" + priceebay[1])
+
+53
+00:01:08,695 --> 00:01:08,695
+21. println(priceebay[1])
+
+54
+00:01:08,696 --> 00:01:08,696
+25. priceeAmazonNew = Float.parseFloat(priceAmazon[1])
+
+55
+00:01:08,704 --> 00:01:08,705
+29. priceebayNew = Float.parseFloat(priceebay[1])
+
+56
+00:01:08,705 --> 00:01:08,706
+33. if (priceeAmazonNew < priceebayNew)
+
+57
+00:01:08,707 --> 00:01:08,708
+2. markPassed("ebay has lesser price value for product than Amazon")
+
+58
+00:01:08,710 --> 00:01:08,711
+6. markPassed("1. ebay price value for product :- " + Price_ebay)
+
+59
+00:01:08,713 --> 00:01:08,714
+10. markPassed("2. Amazon price value for product :- " + Price_amazon)
+
+60
+00:01:08,715 --> 00:01:08,716
+14. println("ebay has lesser price value for product than Amazon")
+
+61
+00:01:08,716 --> 00:01:08,717
+18. println("1. ebay price value for product :- " + Price_ebay)
+
+62
+00:01:08,717 --> 00:01:08,717
+22. println("2. Amazon price value for product :- " + Price_amazon)
+

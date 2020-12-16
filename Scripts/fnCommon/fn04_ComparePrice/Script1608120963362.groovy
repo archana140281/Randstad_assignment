@@ -42,8 +42,9 @@ if(priceeAmazonNew < priceebayNew)
 	KeywordUtil.markPassed('Amazon has lesser price value for product than Ebay')
 	KeywordUtil.markPassed('1. Amazon price value for product :- ' + GlobalVariable.Price_amazon)
 	KeywordUtil.markPassed('2. ebay price value for product :- ' + GlobalVariable.Price_ebay)
-	
-	
+	println ('Amazon has lesser price value for product than Ebay')
+	println ('1. Amazon price value for product :- ' + GlobalVariable.Price_amazon)
+	println ('2. ebay price value for product :- ' + GlobalVariable.Price_ebay)
   }
 
 else
@@ -52,6 +53,9 @@ else
 	KeywordUtil.markPassed('ebay has lesser price value for product than Amazon')
 	KeywordUtil.markPassed('1. ebay price value for product :- ' + GlobalVariable.Price_ebay)
 	KeywordUtil.markPassed('2. Amazon price value for product :- ' + GlobalVariable.Price_amazon)
+	println('ebay has lesser price value for product than Amazon')
+	println('1. ebay price value for product :- ' + GlobalVariable.Price_ebay)
+	println('2. Amazon price value for product :- ' + GlobalVariable.Price_amazon)
 	
 }
 	

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01_Compare Product Price" time="62.727" tests="1" failures="0" errors="0">
+   <testsuite name="TS01_Compare Product Price" tests="1" failures="0" errors="0" time="62.727" timestamp="2020-12-16 21:31:41" hostname="User-iMoney - 192.168.0.8" id="Test Suites/TS01_Compare Product Price">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Archana\\Automation_Randstad\\Reports\\20201216_213127\\TS01_Compare Product Price\\20201216_213127"/>
+         <property name="logFiles" value="D:\\Archana\\Automation_Randstad\\Reports\\20201216_213127\\TS01_Compare Product Price\\20201216_213127\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User-iMoney - 192.168.0.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="775b3a05af2b215d8b36436f97d56ea6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_01_ComparePrice" time="51.743" classname="Test Cases/TestCase_01_ComparePrice" status="PASSED">
+         <system-out><![CDATA[2020-12-16 21:31:52 - [TEST_CASE][PASSED] - Test Cases/TestCase_01_ComparePrice: Test Cases/TestCase_01_ComparePrice
+
+2020-12-16 21:31:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("fnCommon/fn01_OpenBrowser_Navigate"), ["SiteURL":SiteURL1], STOP_ON_FAILURE): Call Test Case 'Test Cases/fnCommon/fn01_OpenBrowser_Navigate' successfully
+
+2020-12-16 21:31:52 - [TEST_CASE][PASSED] - Test Cases/fnCommon/fn01_OpenBrowser_Navigate: Test Cases/fnCommon/fn01_OpenBrowser_Navigate
+
+2020-12-16 21:31:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-16 21:31:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-16 21:31:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-16 21:31:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-16 21:31:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-16 21:31:58 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-16 21:31:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-12-16 21:31:59 - [TEST_STEP][PASSED] - navigateToUrl(SiteURL): Navigate to 'https://www.amazon.com/' successfully
+
+2020-12-16 21:32:03 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2020-12-16 21:32:03 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-12-16 21:32:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/fnCommon/fn01_OpenBrowser_Navigate' successfully
+
+2020-12-16 21:32:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("fnCommon/fn02_Product_from_Amazon"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/fnCommon/fn02_Product_from_Amazon' successfully
+
+2020-12-16 21:32:04 - [TEST_CASE][PASSED] - Test Cases/fnCommon/fn02_Product_from_Amazon: Test Cases/fnCommon/fn02_Product_from_Amazon
+
+2020-12-16 21:32:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Amazon/txt_Searchbox"), "iphone 11"): Text 'iphone 11' is set on object 'Object Repository/Page_Amazon/txt_Searchbox'
+
+2020-12-16 21:32:06 - [MESSAGE][PASSED] - Text 'iphone 11' is set on object 'Object Repository/Page_Amazon/txt_Searchbox'
+
+2020-12-16 21:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Amazon/btn_Searchicon")): Object: 'Object Repository/Page_Amazon/btn_Searchicon' is clicked on
+
+2020-12-16 21:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon/btn_Searchicon' is clicked on
+
+2020-12-16 21:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Amazon/span_Apple iPhone11")): Object: 'Object Repository/Page_Amazon/span_Apple iPhone11' is clicked on
+
+2020-12-16 21:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon/span_Apple iPhone11' is clicked on
+
+2020-12-16 21:32:16 - [TEST_STEP][PASSED] - sGetValue = getText(findTestObject("Page_Amazon/txt_ProductTitle")): Text of object 'Object Repository/Page_Amazon/txt_ProductTitle' is: 'Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)'
+
+2020-12-16 21:32:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Amazon/txt_ProductTitle' is: 'Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)'
+
+2020-12-16 21:32:19 - [TEST_STEP][PASSED] - comment("Name of Website :- Amazon"): Name of Website :- Amazon
+
+2020-12-16 21:32:19 - [MESSAGE][INFO] - Name of Website :- Amazon
+
+2020-12-16 21:32:19 - [TEST_STEP][PASSED] - comment("Name of the product for Amazon :- " + sGetValue): Name of the product for Amazon :- Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)
+
+2020-12-16 21:32:19 - [MESSAGE][INFO] - Name of the product for Amazon :- Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)
+
+2020-12-16 21:32:19 - [TEST_STEP][PASSED] - println("Name of Website :- Amazon"): null
+
+2020-12-16 21:32:19 - [TEST_STEP][PASSED] - println("Name of the product for Amazon :- " + sGetValue): null
+
+2020-12-16 21:32:19 - [TEST_STEP][PASSED] - sGetPrice = getText(findTestObject("Page_Amazon/txt_Price")): Text of object 'Object Repository/Page_Amazon/txt_Price' is: '$838.12'
+
+2020-12-16 21:32:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Amazon/txt_Price' is: '$838.12'
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - comment("Price of the product for Amazon :- " + sGetPrice): Price of the product for Amazon :- $838.12
+
+2020-12-16 21:32:21 - [MESSAGE][INFO] - Price of the product for Amazon :- $838.12
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - println("Price of the product for Amazon :- " + sGetPrice): null
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - Price_amazon = sGetPrice: null
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - sGetLink = getUrl(): Current window's url is: 'https://www.amazon.com/Apple-iPhone-64GB-Midnight-Green/dp/B07ZQS6LPZ/ref=sr_1_1?dchild=1&keywords=iphone+11&qid=1608125531&sr=8-1'
+
+2020-12-16 21:32:21 - [MESSAGE][PASSED] - Current window's url is: 'https://www.amazon.com/Apple-iPhone-64GB-Midnight-Green/dp/B07ZQS6LPZ/ref=sr_1_1?dchild=1&keywords=iphone+11&qid=1608125531&sr=8-1'
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - comment("Link for the product for Amazon :- " + sGetLink): Link for the product for Amazon :- https://www.amazon.com/Apple-iPhone-64GB-Midnight-Green/dp/B07ZQS6LPZ/ref=sr_1_1?dchild=1&keywords=iphone+11&qid=1608125531&sr=8-1
+
+2020-12-16 21:32:21 - [MESSAGE][INFO] - Link for the product for Amazon :- https://www.amazon.com/Apple-iPhone-64GB-Midnight-Green/dp/B07ZQS6LPZ/ref=sr_1_1?dchild=1&keywords=iphone+11&qid=1608125531&sr=8-1
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - println("Link for the product for Amazon :- " + sGetLink): null
+
+2020-12-16 21:32:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-16 21:32:22 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-16 21:32:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/fnCommon/fn02_Product_from_Amazon' successfully
+
+2020-12-16 21:32:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("fnCommon/fn01_OpenBrowser_Navigate"), ["SiteURL":SiteURL2], STOP_ON_FAILURE): Call Test Case 'Test Cases/fnCommon/fn01_OpenBrowser_Navigate' successfully
+
+2020-12-16 21:32:22 - [TEST_CASE][PASSED] - Test Cases/fnCommon/fn01_OpenBrowser_Navigate: Test Cases/fnCommon/fn01_OpenBrowser_Navigate
+
+2020-12-16 21:32:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-16 21:32:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-16 21:32:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-16 21:32:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-16 21:32:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-16 21:32:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-12-16 21:32:28 - [TEST_STEP][PASSED] - navigateToUrl(SiteURL): Navigate to 'https://www.ebay.com/' successfully
+
+2020-12-16 21:32:30 - [MESSAGE][PASSED] - Navigate to 'https://www.ebay.com/' successfully
+
+2020-12-16 21:32:30 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-12-16 21:32:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/fnCommon/fn01_OpenBrowser_Navigate' successfully
+
+2020-12-16 21:32:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("fnCommon/fn03_Product_from_ebay"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/fnCommon/fn03_Product_from_ebay' successfully
+
+2020-12-16 21:32:31 - [TEST_CASE][PASSED] - Test Cases/fnCommon/fn03_Product_from_ebay: Test Cases/fnCommon/fn03_Product_from_ebay
+
+2020-12-16 21:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_eBay/txt_Search_ebay"), "iphone 11"): Text 'iphone 11' is set on object 'Object Repository/Page_eBay/txt_Search_ebay'
+
+2020-12-16 21:32:33 - [MESSAGE][PASSED] - Text 'iphone 11' is set on object 'Object Repository/Page_eBay/txt_Search_ebay'
+
+2020-12-16 21:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_eBay/btn_Search_ebay")): Object: 'Object Repository/Page_eBay/btn_Search_ebay' is clicked on
+
+2020-12-16 21:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBay/btn_Search_ebay' is clicked on
+
+2020-12-16 21:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_eBay/link_product")): Object: 'Object Repository/Page_eBay/link_product' is clicked on
+
+2020-12-16 21:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_eBay/link_product' is clicked on
+
+2020-12-16 21:32:40 - [TEST_STEP][PASSED] - sGetValue = getText(findTestObject("Page_eBay/txt_Productname")): Text of object 'Object Repository/Page_eBay/txt_Productname' is: 'Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)'
+
+2020-12-16 21:32:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_eBay/txt_Productname' is: 'Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)'
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - comment("Name of Website :- ebay"): Name of Website :- ebay
+
+2020-12-16 21:32:42 - [MESSAGE][INFO] - Name of Website :- ebay
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - comment("Name of the product for ebay :- " + sGetValue): Name of the product for ebay :- Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)
+
+2020-12-16 21:32:42 - [MESSAGE][INFO] - Name of the product for ebay :- Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - println("Name of Website :- ebay"): null
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - println("Name of the product for ebay :- " + sGetValue): null
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - sGetPrice = getText(findTestObject("Page_eBay/txt_productprice")): Text of object 'Object Repository/Page_eBay/txt_productprice' is: 'US $650.00'
+
+2020-12-16 21:32:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_eBay/txt_productprice' is: 'US $650.00'
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - comment("Price of the product for ebay :- " + sGetPrice): Price of the product for ebay :- US $650.00
+
+2020-12-16 21:32:42 - [MESSAGE][INFO] - Price of the product for ebay :- US $650.00
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - println("Price of the product for ebay :- " + sGetPrice): null
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - Price_ebay = sGetPrice: null
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - sGetLink = getUrl(): Current window's url is: 'https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-Gold-A2161-CDMA-GSM/274610973194?epid=22034217307&hash=item3ff016ea0a:g:VjgAAOSwcmVfv0Oz'
+
+2020-12-16 21:32:42 - [MESSAGE][PASSED] - Current window's url is: 'https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-Gold-A2161-CDMA-GSM/274610973194?epid=22034217307&hash=item3ff016ea0a:g:VjgAAOSwcmVfv0Oz'
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - comment("Link for the product for ebay :- " + sGetLink): Link for the product for ebay :- https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-Gold-A2161-CDMA-GSM/274610973194?epid=22034217307&hash=item3ff016ea0a:g:VjgAAOSwcmVfv0Oz
+
+2020-12-16 21:32:42 - [MESSAGE][INFO] - Link for the product for ebay :- https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-Gold-A2161-CDMA-GSM/274610973194?epid=22034217307&hash=item3ff016ea0a:g:VjgAAOSwcmVfv0Oz
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - println("Link for the product for ebay :- " + sGetLink): null
+
+2020-12-16 21:32:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/fnCommon/fn03_Product_from_ebay' successfully
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("fnCommon/fn04_ComparePrice"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/fnCommon/fn04_ComparePrice' successfully
+
+2020-12-16 21:32:43 - [TEST_CASE][PASSED] - Test Cases/fnCommon/fn04_ComparePrice: Test Cases/fnCommon/fn04_ComparePrice
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - priceAmazon = Price_amazon.split("\$"): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - priceebay = Price_ebay.split("\$"): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - comment("Price of product at Amazon  :-" + priceAmazon[1]): Price of product at Amazon  :-838.12
+
+2020-12-16 21:32:43 - [MESSAGE][INFO] - Price of product at Amazon  :-838.12
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - println(priceAmazon[1]): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - comment("Price of product at ebay :-" + priceebay[1]): Price of product at ebay :-650.00
+
+2020-12-16 21:32:43 - [MESSAGE][INFO] - Price of product at ebay :-650.00
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - println(priceebay[1]): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - priceeAmazonNew = Float.parseFloat(priceAmazon[1]): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - priceebayNew = Float.parseFloat(priceebay[1]): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - if (priceeAmazonNew < priceebayNew): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - else: 2. Amazon price value for product :- $838.12
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - markPassed("ebay has lesser price value for product than Amazon"): ebay has lesser price value for product than Amazon
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - ebay has lesser price value for product than Amazon
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - markPassed("1. ebay price value for product :- " + Price_ebay): 1. ebay price value for product :- US $650.00
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - 1. ebay price value for product :- US $650.00
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - markPassed("2. Amazon price value for product :- " + Price_amazon): 2. Amazon price value for product :- $838.12
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - 2. Amazon price value for product :- $838.12
+
+2020-12-16 21:32:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/fnCommon/fn04_ComparePrice' successfully
+
+2020-12-16 21:32:43 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: groovy.lang.MissingPropertyException: No such property: ExcelSheetName for class: internal.GlobalVariable
+	at fnFailed.sampleAfterTestCase(fnFailed.groovy:72)
+	at fnFailed.invokeMethod(fnFailed.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608125498595.run(TempTestSuite1608125498595.groovy:36)
+
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2020-12-16 21:32:43 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "ERROR"): null
+
+2020-12-16 21:32:43 - [TEST_STEP][ERROR] - else: groovy.lang.MissingPropertyException: No such property: ExcelSheetName for class: internal.GlobalVariable
+	at fnFailed.sampleAfterTestCase(fnFailed.groovy:72)
+	at fnFailed.invokeMethod(fnFailed.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608125498595.run(TempTestSuite1608125498595.groovy:36)
+
+
+2020-12-16 21:32:43 - [TEST_STEP][ERROR] - com.excel.WriteExcel.WriteResulttoExcel(ExcelSheetName, testCaseContext.getTestCaseStatus(), TestCaseID, 3): groovy.lang.MissingPropertyException: No such property: ExcelSheetName for class: internal.GlobalVariable
+	at fnFailed.sampleAfterTestCase(fnFailed.groovy:72)
+	at fnFailed.invokeMethod(fnFailed.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608125498595.run(TempTestSuite1608125498595.groovy:36)
+
+
+2020-12-16 21:32:43 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: ExcelSheetName for class: internal.GlobalVariable
+	at fnFailed.sampleAfterTestCase(fnFailed.groovy:72)
+	at fnFailed.invokeMethod(fnFailed.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608125498595.run(TempTestSuite1608125498595.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-16 21:31:41 - [TEST_SUITE][PASSED] - TS01_Compare Product Price: Test Cases/TestCase_01_ComparePrice]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

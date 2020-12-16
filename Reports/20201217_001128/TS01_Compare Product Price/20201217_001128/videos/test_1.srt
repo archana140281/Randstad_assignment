@@ -1,0 +1,64 @@
+1
+00:00:00,306 --> 00:00:00,310
+3. Navigate to Amazon
+
+2
+00:00:00,975 --> 00:00:00,976
+1. openBrowser("")
+
+3
+00:00:08,149 --> 00:00:08,149
+5. maximizeWindow()
+
+4
+00:00:10,367 --> 00:00:10,368
+9. Thread.sleep(1000)
+
+5
+00:00:11,390 --> 00:00:11,391
+13. navigateToUrl(SiteURL)
+
+6
+00:00:15,846 --> 00:00:15,848
+17. Thread.sleep(1000)
+
+7
+00:00:16,871 --> 00:00:16,871
+9. Amazon product
+
+8
+00:00:17,389 --> 00:00:17,393
+3. Search product
+
+9
+00:00:19,145 --> 00:00:19,146
+7. click(findTestObject("Page_Amazon/btn_Searchicon"))
+
+10
+00:00:24,961 --> 00:00:24,965
+11. click(findTestObject("Page_Amazon/span_Apple iPhone11"))
+
+11
+00:00:27,722 --> 00:00:27,724
+17. Get product name
+
+12
+00:01:17,586 --> 00:01:17,589
+21. comment("Name of Website :- Amazon")
+
+13
+00:01:17,605 --> 00:01:17,607
+25. comment("Name of the product for Amazon :- " + sGetValue)
+
+14
+00:01:17,612 --> 00:01:17,614
+29. println("Name of Website :- Amazon")
+
+15
+00:01:17,619 --> 00:01:17,621
+33. println("Name of the product for Amazon :- " + sGetValue)
+
+16
+00:01:17,624 --> 00:01:17,627
+39. Get price
+

@@ -30,7 +30,7 @@ class fnFailed {
 	 */
 		
 	
-		 @AfterTestCase
+		// @AfterTestCase
 	    // @AfterTestSuite
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 //	println testCaseContext.getTestCaseId()
@@ -79,7 +79,7 @@ else
 		
 		} 
 	
-	@BeforeTestSuite
+	//@BeforeTestSuite
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		WebUI.openBrowser('')
 		

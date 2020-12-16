@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01_Compare Product Price,Chrome 87.0.4280.88,,,2020-12-16 21:45:37,2020-12-16 21:46:56,1m - 19.232s,PASSED
+,,,,,,,
+Test Cases/TestCase_01_ComparePrice,Chrome 87.0.4280.88,,,2020-12-16 21:45:45,2020-12-16 21:46:56,1m - 11.039s,PASSED
+"callTestCase(findTestCase(""fnCommon/fn01_OpenBrowser_Navigate""), [""SiteURL"":SiteURL1], STOP_ON_FAILURE)",Chrome 87.0.4280.88,Navigate to Amazon,,2020-12-16 21:45:45,2020-12-16 21:46:04,18.606s,PASSED
+"callTestCase(findTestCase(""fnCommon/fn02_Product_from_Amazon""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,Amazon product,,2020-12-16 21:46:04,2020-12-16 21:46:30,26.150s,PASSED
+"callTestCase(findTestCase(""fnCommon/fn01_OpenBrowser_Navigate""), [""SiteURL"":SiteURL2], STOP_ON_FAILURE)",Chrome 87.0.4280.88,Navigate to ebay,,2020-12-16 21:46:30,2020-12-16 21:46:40,10.111s,PASSED
+"callTestCase(findTestCase(""fnCommon/fn03_Product_from_ebay""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,ebay product,,2020-12-16 21:46:40,2020-12-16 21:46:54,13.458s,PASSED
+"callTestCase(findTestCase(""fnCommon/fn04_ComparePrice""), [:], STOP_ON_FAILURE)",Chrome 87.0.4280.88,Compare Price,,2020-12-16 21:46:54,2020-12-16 21:46:54,0.270s,PASSED
+Video,Chrome 87.0.4280.88,,,2020-12-16 21:46:56,2020-12-16 21:46:56,0.001s,PASSED
