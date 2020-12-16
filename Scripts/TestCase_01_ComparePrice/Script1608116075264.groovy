@@ -29,3 +29,6 @@ WebUI.callTestCase(findTestCase('fnCommon/fn01_OpenBrowser_Navigate'), [('SiteUR
 'ebay product'
 WebUI.callTestCase(findTestCase('fnCommon/fn03_Product_from_ebay'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Compare Price'
+WebUI.callTestCase(findTestCase('fnCommon/fn04_ComparePrice'), [:], FailureHandling.STOP_ON_FAILURE)
+

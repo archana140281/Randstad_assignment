@@ -3,9 +3,9 @@
    <description></description>
    <name>fn03_Product_from_ebay</name>
    <tag></tag>
-   <comment>Name of Website :- Amazon
-Name of the product for Amazon :- &quot; + sGetValue
-Price of the product for Amazon :- &quot; + sGetPrice
-Link for the product for Amazon :- &quot; + sGetLink</comment>
+   <comment>Name of Website :- ebay
+Name of the product for ebay :- &quot; + sGetValue
+Price of the product for ebay :- &quot; + sGetPrice
+Link for the product for ebay :- &quot; + sGetLink</comment>
    <testCaseGuid>733fa4ab-fdde-410a-9956-e249e784e3d5</testCaseGuid>
 </TestCaseEntity>

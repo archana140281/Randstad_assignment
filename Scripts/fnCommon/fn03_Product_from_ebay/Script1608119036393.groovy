@@ -34,6 +34,7 @@ println ('Name of the product for ebay :- '  + sGetValue)
 sGetPrice = WebUI.getText(findTestObject('Page_eBay/txt_productprice'))
 WebUI.comment('Price of the product for ebay :- '  + sGetPrice )
 println ('Price of the product for ebay :- '  + sGetPrice )
+GlobalVariable.Price_ebay = sGetPrice
 
 'Get URL'
 sGetLink = WebUI.getUrl()
