@@ -1,75 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ver_heading</name>
+   <name>link_product</name>
    <tag></tag>
-   <elementGuidId>4f2c1cab-fff4-4b94-8998-996765710658</elementGuidId>
+   <elementGuidId>0fb5a582-7601-4e32-a8f1-223db049977c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1</value>
+         <key>BASIC</key>
+         <value>//*[@class = 's-item__title']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Story book' or . = 'Story book')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='srp-river-results']/ul/li/div/div[2]/a/h3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s-item__title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Story book</value>
+      <value>Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;product-detail&quot;]/div[@class=&quot;summary&quot;]/table[1]/tbody[1]/tr[1]/td[2]</value>
+      <value>id(&quot;srp-river-results&quot;)/ul[@class=&quot;srp-results srp-list clearfix&quot;]/li[@class=&quot;s-item    s-item--watch-at-corner&quot;]/div[@class=&quot;s-item__wrapper clearfix&quot;]/div[@class=&quot;s-item__info clearfix&quot;]/a[@class=&quot;s-item__link&quot;]/h3[@class=&quot;s-item__title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item Type'])[1]/following::td[1]</value>
+      <value>//div[@id='srp-river-results']/ul/li/div/div[2]/a/h3</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/preceding::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- apply Model filter'])[3]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Price'])[1]/preceding::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre-Owned'])[1]/preceding::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Story book']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Apple iPhone 11 Pro Max - 256GB - Gold A2161 (CDMA + GSM)']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tbody/tr/td[2]</value>
+      <value>//a/h3</value>
    </webElementXpaths>
 </WebElementEntity>

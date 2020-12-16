@@ -29,4 +29,14 @@
       <initValue>'https://www.ebay.com/'</initValue>
       <name>SiteURL2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Price_amazon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Price_ebay</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

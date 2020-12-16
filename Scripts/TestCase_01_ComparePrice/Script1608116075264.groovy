@@ -17,11 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 //GlobalVariable.TestCaseID = TestCaseID
 //GlobalVariable.ExcelSheetName = ExcelSheetName
-'Navigate'
+'Navigate to Amazon'
 WebUI.callTestCase(findTestCase('fnCommon/fn01_OpenBrowser_Navigate'), [('SiteURL') : GlobalVariable.SiteURL1], FailureHandling.STOP_ON_FAILURE)
 
 'Amazon product'
 WebUI.callTestCase(findTestCase('fnCommon/fn02_Product_from_Amazon'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Navigate'
+'Navigate to ebay'
 WebUI.callTestCase(findTestCase('fnCommon/fn01_OpenBrowser_Navigate'), [('SiteURL') : GlobalVariable.SiteURL2], FailureHandling.STOP_ON_FAILURE)
+
+'ebay product'
+WebUI.callTestCase(findTestCase('fnCommon/fn03_Product_from_ebay'), [:], FailureHandling.STOP_ON_FAILURE)
+

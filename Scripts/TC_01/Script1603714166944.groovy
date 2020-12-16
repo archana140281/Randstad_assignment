@@ -39,11 +39,11 @@ WebUI.delay(2)
 //CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'('Paynet', url , TestCaseID, 6)
 
 WebUI.waitForPageLoad(3)
-WebUI.waitForElementVisible(findTestObject('Page_iMoney/ver_heading'), 4) 
+WebUI.waitForElementVisible(findTestObject('null'), 4) 
 
 WebUI.delay(2)
 
-def heading = WebUI.getText(findTestObject('Page_iMoney/ver_heading'), FailureHandling.STOP_ON_FAILURE)
+def heading = WebUI.getText(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment(heading)
 

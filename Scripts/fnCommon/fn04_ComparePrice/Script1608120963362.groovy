@@ -15,29 +15,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.openBrowser('')
-
-//WebUI.maximizeWindow()
-
-//Thread.sleep(1000)
-
-GlobalVariable.TestCaseID = TestCaseID
-GlobalVariable.ExcelSheetName = ExcelSheetName
-
-WebUI.navigateToUrl(Address)
-
-// WebUI.navigateToUrl(GlobalVariable.SiteURL1)
-Thread.sleep(1000)
-
-//def url = WebUI.getUrl()
-//WebUI.comment(url)
-//CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'('Paynet', url , TestCaseID, 6)
-
-def heading = WebUI.getWindowTitle()
-
-// def heading = WebUI.getText(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment(heading)
-
-CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'(GlobalVariable.ExcelSheetName, heading , TestCaseID, 5)
-

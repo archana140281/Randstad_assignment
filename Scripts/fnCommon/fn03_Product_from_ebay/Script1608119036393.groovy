@@ -14,30 +14,42 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
 
-//WebUI.maximizeWindow()
 
-//Thread.sleep(1000)
+'Search product'
+WebUI.setText(findTestObject('Page_eBay/txt_Search_ebay'), 'iphone 11')
+WebUI.click(findTestObject('Page_eBay/btn_Search_ebay'))
+WebUI.click(findTestObject('Page_eBay/link_product'))
 
-GlobalVariable.TestCaseID = TestCaseID
-GlobalVariable.ExcelSheetName = ExcelSheetName
+'Get product name'
+sGetValue= WebUI.getText(findTestObject('Page_eBay/txt_Productname'))
+WebUI.comment('Name of Website :- ebay')
+WebUI.comment('Name of the product for ebay :- '  + sGetValue )
+println ('Name of Website :- ebay')
+println ('Name of the product for ebay :- '  + sGetValue)
 
-WebUI.navigateToUrl(Address)
+'Get price'
+sGetPrice = WebUI.getText(findTestObject('Page_eBay/txt_productprice'))
+WebUI.comment('Price of the product for ebay :- '  + sGetPrice )
+println ('Price of the product for ebay :- '  + sGetPrice )
 
-// WebUI.navigateToUrl(GlobalVariable.SiteURL1)
-Thread.sleep(1000)
+'Get URL'
+sGetLink = WebUI.getUrl()
+WebUI.comment('Link for the product for ebay :- '  + sGetLink )
+println ('Link for the product for ebay :- '  + sGetLink)
 
-//def url = WebUI.getUrl()
-//WebUI.comment(url)
-//CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'('Paynet', url , TestCaseID, 6)
+WebUI.closeBrowser()
 
-def heading = WebUI.getWindowTitle()
 
-// def heading = WebUI.getText(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment(heading)
 
-CustomKeywords.'com.excel.WriteExcel.WriteResulttoExcel'(GlobalVariable.ExcelSheetName, heading , TestCaseID, 5)
+
+
+
+
+
+
+
 
